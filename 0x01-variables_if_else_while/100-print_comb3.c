@@ -12,14 +12,15 @@
 
 int main(void)
 {
-	int a=0, b=0;
-	for(a = 0;a < 10;a++)
+	int a = 0, b = 0;
+
+	for (a = 0; a < 10; a++)
 	{
-		for(b = a + 1;b < 10;b++)
+		for (b = a + 1; b < 10; b++)
 		{
 			putchar('0' + a);
-                        putchar('0' + b);
-			if(a!=8)
+			putchar('0' + b);
+			if (a != 8)
 			{
 				putchar(',');
 				putchar(' ');
