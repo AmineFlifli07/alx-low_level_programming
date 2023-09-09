@@ -12,16 +12,14 @@
 
 int main(void)
 {
-	int tens;
-	int ones;
-
-	for (tens = '0'; tens <= '8'; tens++) /*print tens place*/
+	int a=0, b=0;
+	for(a = 0;a < 10;a++)
 	{
-		for (ones = '0'; ones <= '9'; ones++) /*print ones place*/
+		for(b = a + 1;b < 10;b++)
 		{
-			putchar(tens);
-			putchar(ones);
-			if (!(tens == '8' && ones == '9')) /*skip comma at end*/
+			putchar('0' + a);
+                        putchar('0' + b);
+			if(a!=8)
 			{
 				putchar(',');
 				putchar(' ');
@@ -29,6 +27,4 @@ int main(void)
 		}
 	}
 	putchar('\n');
-
-	return (0);
 }
