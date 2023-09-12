@@ -5,6 +5,8 @@
  *
  * Description: false or true validation
  *
+ *print_alphabet - utilezes on the _putchar to print the alphabet
+ *
  * Return: 0 (success)
  */
 
