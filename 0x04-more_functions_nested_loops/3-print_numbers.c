@@ -1,15 +1,18 @@
 #include "main.h"
 /**
- *print_numbers - evalue if letter is uppercase .
+ * print_numbers - print numbers
  * Return: Always 0.
  */
-
 void print_numbers(void)
 {
 int i;
 
-for (i = 0; i > 10; i++)
-	putchar(i + '0');
+i = 0;
+while (i < 10)
+{
+putchar (i + '0');
+i++;
+}
 
-putchar('\n');
+putchar ('\n');
 }
