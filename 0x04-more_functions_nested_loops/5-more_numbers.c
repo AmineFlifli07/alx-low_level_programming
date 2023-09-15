@@ -15,7 +15,7 @@ for (a = 0; a < 10; a++)
 	{
 		putchar('0' + b);
 	}
-		putchar("\n");
+		putchar('\n');
 }
 return (0);
 }
