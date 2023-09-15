@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * mul - multipli two numbers
- *@c: print int
+ *@a: print int
+ *@b: print int
  * Return: Always 0.
  */
 
