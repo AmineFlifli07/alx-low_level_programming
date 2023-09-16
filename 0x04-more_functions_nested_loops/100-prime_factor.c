@@ -1,35 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point.
  *
- * Description: false or true validation
- *
- * Return: 0 (success)
+ * Return: Always 0.
  */
 
 int main(void)
+
 {
+long n, i;
 
-long a = 612852475143;
-long b = 2;
-
-while (a != 1)
+n = 612852475143;
+for (i = 2; i < n; i++)
 {
-	if (a % b == 0)
-	{
-		a = a / b;
-		printf("%li", b);
-		if (a != 1)
-			printf(",");
-
-	}
-	else
-	{
-		b = b + 1;
-	}
+while (n % i == 0)
+n = n / i;
 }
-printf("\n");
+
+printf("%lu\n", n);
 
 return (0);
 }
