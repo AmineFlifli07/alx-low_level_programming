@@ -21,7 +21,7 @@ while (a != 1)
 		a = a / b;
 		printf("%li", b);
 		if (a != 1)
-			printf(", ");
+			printf(",");
 
 	}
 	else
