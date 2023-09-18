@@ -11,5 +11,5 @@ void _puts(char *str)
 	     putchar(*str);
 	     str++;
      }
-	pytchar('\n');
+	putchar('\n');
  }
