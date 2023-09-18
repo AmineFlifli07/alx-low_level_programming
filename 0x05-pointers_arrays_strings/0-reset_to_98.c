@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_numbers - print numbers
- * Return: Always 0.
+ * reset_to_98 - print numbers
+ * @n : n parameter
  */
 void reset_to_98(int *n)
 {
